@@ -1,0 +1,17 @@
+name: climate_cabinet_finance
+version: 1.0.0
+config-version: 2
+
+profile: climate_cabinet_finance
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  climate_cabinet_finance:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

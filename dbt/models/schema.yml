@@ -1,0 +1,25 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw
+    tables:
+      - name: campaign_finance
+        description: Raw campaign finance extracts from state/FEC ingestion.
+
+models:
+  - name: stg_contributions
+    description: Standardized campaign finance records with normalized donor types.
+    columns:
+      - name: filing_id
+        tests: [not_null, unique]
+      - name: amount_usd
+        tests: [not_null]
+      - name: contribution_date
+        tests: [not_null]
+
+  - name: fct_district_metrics
+    description: District-level contribution metrics for dashboarding.
+    columns:
+      - name: total_contributions
+        tests: [not_null]

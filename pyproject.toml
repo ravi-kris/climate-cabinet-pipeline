@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "climate-cabinet-pipeline"
+version = "0.1.0"
+description = "State-level campaign finance medallion pipeline and visualization starter"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas>=2.2.0",
+  "pyarrow>=15.0.0",
+  "requests>=2.31.0",
+]
+
+[project.optional-dependencies]
+viz = [
+  "altair>=5.0.0",
+  "streamlit>=1.40.0",
+]
+dev = [
+  "pytest>=8.0.0",
+]
+
+[project.scripts]
+climate-cabinet-pipeline = "climate_cabinet_pipeline.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

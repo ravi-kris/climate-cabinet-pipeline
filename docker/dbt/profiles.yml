@@ -1,0 +1,8 @@
+climate_cabinet_finance:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: /usr/app/data/warehouse/climate_cabinet.duckdb
+      schema: analytics
+      threads: 4

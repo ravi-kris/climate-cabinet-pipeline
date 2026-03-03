@@ -1,0 +1,31 @@
+filing_id,candidate_id,candidate_name,donor_id,donor_name,donor_type,amount,contribution_date,state,district
+F0001,CAND-CA-12,Ana Lopez,D001,Green Future PAC,PAC,120000,2024-01-15,CA,12
+F0002,CAND-CA-12,Ana Lopez,D002,Maria Chen,Individual,2500,2024-01-20,CA,12
+F0003,CAND-CA-12,Ana Lopez,D003,Sunrise Organizing,PAC,45500,2024-02-10,CA,12
+F0004,CAND-CA-12,Ana Lopez,D002,Maria Chen,Individual,1800,2024-03-11,CA,12
+F0005,CAND-NY-10,Jordan Reyes,D004,Clean Cities Coalition,PAC,96000,2024-01-17,NY,10
+F0006,CAND-NY-10,Jordan Reyes,D005,Alex Rivera,Individual,3200,2024-01-19,NY,10
+F0007,CAND-NY-10,Jordan Reyes,D006,Harbor Transit Workers,Other,15000,2024-02-03,NY,10
+F0008,CAND-TX-07,Priya Patel,D007,Texas Families Fund,PAC,88000,2024-01-08,TX,07
+F0009,CAND-TX-07,Priya Patel,D008,Noah Garcia,Individual,4100,2024-02-12,TX,07
+F0010,CAND-TX-07,Priya Patel,D009,Lone Star Action,PAC,66500,2024-02-25,TX,07
+F0011,CAND-WA-06,Leah Kim,D010,Evergreen Climate PAC,PAC,72500,2024-03-01,WA,06
+F0012,CAND-WA-06,Leah Kim,D011,David Park,Individual,5300,2024-03-05,WA,06
+F0013,CAND-WA-06,Leah Kim,D012,Puget Sound Labor,Other,12000,2024-03-18,WA,06
+F0014,CAND-CA-12,Ana Lopez,D001,Green Future PAC,PAC,85000,2022-10-20,CA,12
+F0015,CAND-CA-12,Ana Lopez,D002,Maria Chen,Individual,1000,2022-11-09,CA,12
+F0016,CAND-NY-10,Jordan Reyes,D004,Clean Cities Coalition,PAC,78000,2022-09-14,NY,10
+F0017,CAND-NY-10,Jordan Reyes,D005,Alex Rivera,Individual,1200,2022-09-21,NY,10
+F0018,CAND-TX-07,Priya Patel,D007,Texas Families Fund,PAC,69000,2022-08-07,TX,07
+F0019,CAND-TX-07,Priya Patel,D008,Noah Garcia,Individual,950,2022-08-19,TX,07
+F0020,CAND-WA-06,Leah Kim,D010,Evergreen Climate PAC,PAC,64000,2022-10-03,WA,06
+F0021,CAND-WA-06,Leah Kim,D011,David Park,Individual,1300,2022-10-14,WA,06
+F0022,CAND-FL-13,Carlos Mendez,D013,Florida Renewables PAC,PAC,53000,2024-01-30,FL,13
+F0023,CAND-FL-13,Carlos Mendez,D014,Emma Johnson,Citizen,2700,2024-02-06,FL,13
+F0024,CAND-FL-13,Carlos Mendez,D015,Gulf Coast Business Assn,Other,9000,2024-02-20,FL,13
+F0025,CAND-FL-13,Carlos Mendez,D014,Emma Johnson,Citizen,1900,2022-09-27,FL,13
+F0026,CAND-FL-13,Carlos Mendez,D013,Florida Renewables PAC,PAC,42000,2022-09-18,FL,13
+F0027,CAND-CA-12,Ana Lopez,D016,Westside Teachers Union,OTHER,8100,2024-04-12,CA,12
+F0028,CAND-NY-10,Jordan Reyes,D017,NY Small Donors Network,person,2300,2024-04-09,NY,10
+F0029,CAND-TX-07,Priya Patel,D018,Southwest Climate Youth,Political Action Committee,51000,2024-04-07,TX,07
+F0030,CAND-WA-06,Leah Kim,D019,Olivia Moore,Individual,3400,2024-04-11,WA,06

@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+*.egg-info/
+
+# Pipeline data outputs
+/data/bronze/*.parquet
+/data/silver/*.parquet
+/data/silver/*.csv
+/data/silver/*.json
+/data/gold/*.parquet
+
+# Airflow
+logs/
+airflow.db
+
+# dbt
+dbt/target/
+dbt/dbt_packages/
+
+# OS/editor
+.DS_Store
+.vscode/
+.env
+
+# DuckDB
+/data/warehouse/*.duckdb
